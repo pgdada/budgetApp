@@ -71,5 +71,4 @@ print(f'Car balance: {car.check_balance()}')
 entertainment.transfer(car, 2000) # tranfer
 print(f'Entertainment balance: {entertainment.check_balance()}')
 print(f'Car balance: {car.check_balance()}')
-
 print(education)
