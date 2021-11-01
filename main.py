@@ -23,8 +23,8 @@ class Budget:
 
     def transfer(self, other, amount):
         # Transfer of funds from self -> other
-        self.withdraw(amount);
-        other.deposit(amount);
+        self.withdraw(amount)
+        other.deposit(amount)
         print('Transfer successful!')
         
 
@@ -71,4 +71,5 @@ print(f'Car balance: {car.check_balance()}')
 entertainment.transfer(car, 2000) # tranfer
 print(f'Entertainment balance: {entertainment.check_balance()}')
 print(f'Car balance: {car.check_balance()}')
+
 print(education)
